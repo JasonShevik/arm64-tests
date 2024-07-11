@@ -1,33 +1,41 @@
 
 
-
-
-
-
-
-
 int main() {
 	int money = 12900;
+	int length = 1;
 	
-	// I'll make a counter
-	
-	// Then repeatedly mod money by 10
-	// Each time checking if the result is greater than 10
-	// Incrementing the counter as necessary
-	for() {
+	for(int i = 10;; i *= 10) {
+		length += 1;
 		
-		
-		
+		if((money / i) < 10) {
+			break;
+		}
 	}
 	
-	// Then once I have the length of the integer
-	// I will allocate space for that many chars plus null terminator
-	// I can exponent 10 by length-1 and repeatedly mod by that
-	// Adding the remainder to the string using ASCII math
-	// and subtracting from money until I get to 0
+	
+	// Allocate space for the string and null char
+	
+	
+	for(int i = 1; i < length; i++) {
+		digit = money % 10;
+		
+		
+		// Add the digit to the string using ASCII math
+		
+		
+		money /= 10;
+	}
+	//add final digit
+	
+	
 	// add null terminator
+	
 	
 	
 	
 	return 0;
 }
+
+
+
+
